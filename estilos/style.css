@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    background-color: blueviolet;
+    
+}
+main {
+    background-color: blueviolet;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+section#login {
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+section#login > div#imagem {
+   background: url('../imagem/pexels-dinnow-9444476.jpg');
+   height: 180px;
+   background-size: cover;
+   
+}
+section#login > div#formulario > h2 {
+    text-align: center;
+    padding: 10px;
+}
+section#login > div#formulario > p {
+    text-align: center;
+}
